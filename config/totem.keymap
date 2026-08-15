@@ -222,4 +222,13 @@
             >;
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        double_hold_adj {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
 };
