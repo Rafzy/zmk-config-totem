@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans  &trans  &trans            &kp LBRC    &kp RBRC  &trans             &trans        &trans     &trans
-        &trans  &trans  &trans  &trans            &trans      &kp LEFT  &kp DOWN           &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp LPAR    &kp RPAR  &kp RIGHT_BRACKET  &trans        &trans     &trans  &trans
-                        &trans  &trans            &trans      &trans    &trans             &trans
+        &trans  &trans  &trans  &trans  &kp LBRC            &kp RBRC           &trans    &trans        &trans     &trans
+        &trans  &trans  &trans  &trans  &trans              &kp LEFT           &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &trans    &trans        &trans     &trans  &trans
+                        &trans  &trans  &trans              &trans             &trans    &trans
             >;
         };
 
